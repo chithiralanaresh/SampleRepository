@@ -17,7 +17,7 @@ public class NoPattern {
 			}
 			f=f+1;
 			g=g-1;
-			System.out.println("");
+			System.out.println("Sample text");
 		}
 	}
 	
