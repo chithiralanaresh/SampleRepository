@@ -19,6 +19,14 @@ public class UserDetail implements Serializable{
 	private String id;
 	@Column(name = "Email",nullable = false)
 	private String email;
+	@Column
+	private String Username;
+	@Column
+	private Long Mobile;
+	@Column
+	private String Password;
+	@Column
+	private String ConfirmPassword;
 	
 	/*
 	 * TODO 
