@@ -27,6 +27,43 @@ public class UserDetail implements Serializable{
 	private String Password;
 	@Column
 	private String ConfirmPassword;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getUsername() {
+		return Username;
+	}
+	public void setUsername(String username) {
+		Username = username;
+	}
+	public Long getMobile() {
+		return Mobile;
+	}
+	public void setMobile(Long mobile) {
+		Mobile = mobile;
+	}
+	public String getPassword() {
+		return Password;
+	}
+	public void setPassword(String password) {
+		Password = password;
+	}
+	public String getConfirmPassword() {
+		return ConfirmPassword;
+	}
+	public void setConfirmPassword(String confirmPassword) {
+		ConfirmPassword = confirmPassword;
+	}
+	
 	
 	/*
 	 * TODO 
